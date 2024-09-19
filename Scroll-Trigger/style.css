@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 30, 30);
+}

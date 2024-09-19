@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+}
+
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+
+#navigations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#title{
+    font-size: 80px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    text-wrap: nowrap;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
