@@ -31,7 +31,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: lightgreen;
-    /* display: flex; */
+    display: flex;
     /* align-items: center;
     justify-content: center; */
     padding: 5vw 0;
@@ -41,8 +41,9 @@ body{
 #page2 h1{
     font-size: 40vw;
     font-weight: 600;
-    color: black;
     text-transform: uppercase;
+    color: black;
+    /* transform: translateX(-90%); */
 }
 
 
