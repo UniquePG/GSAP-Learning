@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+i{
+    cursor: pointer;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: lightblue; */
+    background: url(https://img.freepik.com/free-photo/blue-sky-background-with-fluffy-white-clouds_1048-14028.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+
+}
+
+#nav h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#full{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.544);
+    position: fixed;
+    top: 0;
+    /* right: 0%; */    /* open the sidebar */
+    right: -40%;        /* close the sidebar */
+    backdrop-filter: blue(20px);
+    padding: 150px 60px;
+    z-index: 10;
+}
+
+#full h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 12px;
+}
+
+#full i{
+    position: absolute;
+    top: 6%;
+    right: 8%;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #111;
+    font-weight: 700;
+    font-size: 25px;
+
+}
